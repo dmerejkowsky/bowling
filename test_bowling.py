@@ -9,3 +9,7 @@ def test_can_roll():
     game.roll(0)
 
 
+def test_can_score():
+    game = bowling.Game()
+    game.roll(0)
+    game.score()
